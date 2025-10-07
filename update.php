@@ -24,7 +24,7 @@ if (isset($_GET['roll'])) {
     }
 }
 
-// ✅ ফর্ম সাবমিট হলে ডেটা আপডেট করা
+
 if (isset($_POST['update'])) {
     $name = $_POST['name'];
     $gender = $_POST['gender'];
