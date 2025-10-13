@@ -3,7 +3,7 @@ include 'db_connection.php';
 
 $roll = $name = $gender = $gpa = $city = "";
 $notification = "";
-
+//menhajul islam meraz
 // ✅ GET থেকে Roll নেওয়া
 if (isset($_GET['roll'])) {
     $roll = $_GET['roll'];
